@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hedelmäpeli</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="pelaaja-rivi">
+        <div id="rahat">Rahat: <span id="pelaaja-rahat"></span></div>
+        
+        <div id="panos">Panos: <span id="pelaaja-panos"></span></div>
+        
+        <div id="kuva-panos">
+            <button onclick="laitaPanos(1)"><img src="kuvat/1-kolikko.jpg" width="80" height="80"></button>
+            <button onclick="laitaPanos(2)"><img src="kuvat/2-kolikko.jpg" width="80" height="80"></button>
+        </div>
+    </div><br><br>
+
+    
+    <div class="rullat">
+        <img id="rulla1" src="kuvat/hedelma1.PNG" height="130">   
+        <img id="rulla2" src="kuvat/hedelma3.PNG" height="130">
+        <img id="rulla3" src="kuvat/hedelma2.PNG" height="130"> 
+    </div>  
+    
+    <div class="pelaa">
+        <button id="pelinappula" onclick="pelaa()">PELAA</button>
+    </div>
+
+
+
+
+    <script src="matikka.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>

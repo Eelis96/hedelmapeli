@@ -1,0 +1,47 @@
+.pelaaja-rivi  {
+    text-align: center;
+    width:60%;
+    margin:auto;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 2.1rem;
+    background-color: green;
+    color: #ffff00;
+    border: solid yellow;
+}
+
+button:hover    {
+    border: solid yellow;
+}
+
+#rahat  {
+    padding: 10px;
+}
+
+#panos  {
+    padding: 10px;
+}
+
+.rullat {
+    text-align: center;
+    width:80%;
+    margin:auto;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: green;
+    border: solid yellow;
+    
+}
+
+.pelaa  {
+    text-align: center;
+    width: 60%;
+    margin: auto;
+    padding: 10px;
+}
+
+#pelinappula    {
+    font-size: 4rem;
+    text-decoration: underline;
+    background-color: green;
+    font-family: 'Courier New', Courier, monospace;
+    color: yellow;
+}
